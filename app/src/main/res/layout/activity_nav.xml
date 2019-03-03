@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/frame_body"
+            android:layout_height="500dp">
+
+            <Button
+                android:id="@+id/addclass"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                android:background="@drawable/img_1"
+                android:onClick="goTotakeclass"/>
+
+            <Button
+                android:id="@+id/taketest"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                android:background="@drawable/img_2"
+                android:onClick="goTotakeQuiz"/>
+            <Button
+                android:id="@+id/doactivity"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                android:background="@drawable/img_3" />
+            <Button
+                android:id="@+id/blankspace"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/TransperentWhite" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

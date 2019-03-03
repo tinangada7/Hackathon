@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Charitable Education</string>
+    <string name="title_home">Home</string>
+    <string name="title_yourhelp">Your Help</string>
+    <string name="title_activity_giveaway">Give Away</string>
+    <string name="title_activity_aboutus">About Us</string>
+</resources>
